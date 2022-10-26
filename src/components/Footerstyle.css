@@ -1,0 +1,42 @@
+section{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    position:fixed;
+    bottom: 0px;
+    padding:10px ;
+}
+
+.line {
+    width: 30%;
+    text-align: center;
+    line-height: 20px;
+    
+}
+.icons i{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+    font-size: 15px;
+}
+.copyright p{
+    text-align: center;
+    color: white;
+    margin-bottom: 6px;
+}
+
+@media screen and  (max-width: 900px) {
+    section{
+        position: fixed;
+        bottom: 0px;
+    }
+
+  
+    .line{
+        width: 40%;
+    }
+}
+
+

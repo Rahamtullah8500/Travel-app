@@ -1,0 +1,108 @@
+.mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 255, 255);
+  
+}
+
+.contentBox{
+    width: 30%;
+    padding-left: 10px;
+}
+
+.contentBox h1{
+    font-size: 20px;
+    color: rgb(63, 4, 72);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contentBox p{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 0;
+    font-family:sans-serif;
+    color: rgb(38, 4, 70);
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover{
+    color: rgb(69, 15, 74);
+  
+    text-align: center;
+    box-shadow: 0 0 3px black;
+    
+}
+.readmore:hover{
+    color: rgb(78, 23, 94);
+    
+}
+
+.btn{
+    border: 2px solid rgb(135, 11, 135);
+    border-radius: 20px;
+    
+}
+
+.readmore{
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(63, 4, 72);
+}
+
+.videocontainer{
+    width: 60%;
+}
+video{
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+}
+
+@media screen and (max-width:900px){
+    html{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:768px){
+    html{
+        font-size:14px ;
+    }
+    .mainSection{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contentBox{
+        width: 90%;
+    }
+    .contentBox h1{
+        font-size: 18px;
+        margin:0 auto;
+    }
+    .contentBox p{
+        font-size: 14px;
+    }
+
+    .imgcontainer{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .imgcontainer{
+        width: 60%;
+    }
+}

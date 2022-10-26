@@ -1,0 +1,21 @@
+.policy{
+    
+    max-width: 990px;
+    margin: 5px auto;
+}
+
+li{
+    font-size: 15px;
+    font-family: sans;
+    margin: 5px 0;
+}
+
+@media screen and (max-width:1000px){
+    .policy{
+        width: 70%;
+        margin: 5px auto;
+    }
+    li{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,61 @@
+.contact{
+    max-width:400px;
+    padding: 10px 15px;
+    margin: 40px auto;
+    background:rgb(255, 255, 255);
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
+}
+.heading{
+    margin-top: 50px;
+}
+
+button{
+    background-color:rgb(50, 98, 150);
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding:6px 12px ;
+    margin: 5px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    box-shadow: 0 0 2px black;
+    cursor: pointer;
+    
+}
+
+input{
+    width:100%;
+    padding: 9px;
+    margin: 5px auto;
+ 
+    font-size: 15px;
+       
+}
+
+label{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact div{
+    margin: 3px auto;
+}
+
+@media screen and (max-width:768px) {
+    .contact{
+        width: 70%;
+        margin: 10px auto;
+    }    
+    input{
+        width: 100%;
+        padding:5px;
+        font-size: 12px;
+    }
+}

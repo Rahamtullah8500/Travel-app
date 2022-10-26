@@ -1,0 +1,113 @@
+header{
+    background-color:rgb(50, 98, 150);
+}
+
+.container{
+    width: 96%;
+    margin: 0px auto;
+    max-width: 1200px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+.container-flex{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo img{
+    width:60px;
+    padding:0px;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+}
+
+.listItem{
+    
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+
+.active{
+    color: rgb(60, 20, 94);
+    border-bottom: 2px solid  rgb(20, 68, 94);
+    
+    
+}
+
+.icons{
+    margin-top: 20px;
+    padding: 0%;
+}
+
+.fa{
+    color:white;
+    font-size: 18px;
+    margin-left: 50px;
+    
+}
+
+.fa:hover{
+    color: rgb(164, 140, 188);
+    cursor: pointer;
+}
+
+@media screen and  (max-width: 1100px;)    {
+    .icon{
+        margin-left: 2px;
+    }
+}
+
+@media screen and (max-width:768px){
+    html{
+        font-size: 13px;
+    }
+
+    .container-flex{
+        flex-direction: column;
+    }
+    .logo img{
+        width: 130px;
+        margin: 10px 0px;
+    }
+    .icons{
+        margin: 10px 0px;
+
+    }
+    .listItem{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:568px){
+    html{font-size: 11px;}
+    .logo img{
+        width: 100px;
+    }
+
+    .list{
+        flex-direction: column;
+        margin-left: 0px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .listItem{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .icons i{
+       padding-left:0px;
+       margin-left: 20px;
+    }
+   
+}

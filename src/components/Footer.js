@@ -5,7 +5,7 @@ import '../components/Footerstyle.css';
 export const Footer = () => {
   return (
     <>
-        <section>
+         <div className='footer'>
             <div className='container container-flex'>
                 <div className='icons'>
                    <i className='fa fa-twitter' ></i>
@@ -23,7 +23,7 @@ export const Footer = () => {
                       <p>Made by Abdul Rahamtullah shaik</p>
                   </div>
             </div>
-        </section>
+          </div>
     
     
     </>

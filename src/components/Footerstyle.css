@@ -1,9 +1,10 @@
-section{
+.footer{
     background-color: rgb(61, 61, 61);
     width: 100%;
     position:fixed;
-    bottom: 0px;
+    bottom: 0;
     padding:10px ;
+    
 }
 
 .line {
@@ -27,16 +28,17 @@ p{
     margin-bottom: 6px;
 }
 
-@media screen and  (max-width: 900px) {
-    section{
-        position: fixed;
+@media screen and  (max-width: 990px) {
+    .footer{
+        position:static;
         bottom: 0px;
     }
 
+    p{
+        color: yellow;
+    }
   
     .line{
-        width: 40%;
+        width: 50%;
     }
 }
-
-

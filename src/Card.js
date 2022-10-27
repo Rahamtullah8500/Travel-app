@@ -10,9 +10,9 @@ export const Card = (props) => {
             <h2>{props.title1}</h2>
 
             <img src={props.imgsource} alt='trecking' className='servicesImg' />
-
+            <hr/>
             <p>{props.desc1}</p>
-
+            <hr/>
             <div className='btnBox'>
               <div className='btn'>
                 <Link  to="/contact" className='readmore' >{props.btnService}</Link>
